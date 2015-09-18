@@ -1,0 +1,20 @@
+﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {font-family:"ML-TTKarthika Normal";
+	src:url("./fonts/MLKR0NTT.eot?") format("eot"),
+		url("./fonts/MLKR0NTT.woff") format("woff"),
+		url("./fonts/MLKR0NTT.ttf") format("truetype"),
+		url("./fonts/MLKR0NTT.svg#ML-TTKarthikaNormal") format("svg");
+		font-weight:normal;
+		font-style:normal;
+		}
+@font-face {
+    font-family: 'mlw-ttrevathinormal';
+    src: url('./fonts/mlwrv0nt-webfont.eot');
+    src: url('./fonts/mlwrv0nt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/mlwrv0nt-webfont.woff2') format('woff2'),
+         url('./fonts/mlwrv0nt-webfont.woff') format('woff'),
+         url('./fonts/mlwrv0nt-webfont.ttf') format('truetype'),
+         url('./fonts/mlwrv0nt-webfont.svg#mlw-ttrevathinormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
