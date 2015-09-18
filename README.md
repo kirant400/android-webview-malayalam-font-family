@@ -65,7 +65,7 @@ $("#asciirevathi").html(UniCodeToAsciiFont.convertFont(strUnicodeVal));
 		elementType:"span"}
     */
 	UniCodeToAsciiFont.configure(configValue);
-	```
+```
 	###Extending To new Ascii font
 	create a javascript file eg:karthikatemplatefont.js<br>
 	Add below code 'KarthikaTemplateFont' can be replaced with any other name
