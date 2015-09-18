@@ -2,7 +2,9 @@
 Android, for UTF character on Web view Such as Cordova based application doesnot apply font change when there is a UTF character present.<br>
 The Library provided will convert UTF to ASCII and then use a Malayalam font to display the font.
 This can be extended to any UTF character. <br>
-Current default unicodetoasciifont.js is for a Malayalam font MLW-TTRevathi
+Current default unicodetoasciifont.js is for a Malayalam font MLW-TTRevathi.<br>
+Sample HTML page is included.
+The plugin is available in lib folder.
 ##Dependency 
 jQuery
 ###Usage
@@ -43,6 +45,9 @@ $("#asciirevathi").html(UniCodeToAsciiFont.convertFont(strUnicodeVal));
 	UniCodeToAsciiFont.convertToNonEngilshAscii(inputString);
 ```
 ###Configuration
+Along with the font. user can also change the element that is wrapping the NonEnglish character. Default is span<br>
+User can also change teh class identifier for the wrapping element. default class name is mal-rev
+
 ```javascript
 	 /*
     * Change all the configuration.
@@ -66,9 +71,10 @@ $("#asciirevathi").html(UniCodeToAsciiFont.convertFont(strUnicodeVal));
     */
 	UniCodeToAsciiFont.configure(configValue);
 ```
-	###Extending To new Ascii font
-	create a javascript file eg:karthikatemplatefont.js<br>
-	Add below code 'KarthikaTemplateFont' can be replaced with any other name
+###Extending To new Ascii font
+create a javascript file eg:karthikatemplatefont.js<br>
+Add below code 'KarthikaTemplateFont' can be replaced with any other name
+
 ```javascript
 	(function(KarthikaTemplateFont) {
 	KarthikaTemplateFont.defaults = {
